@@ -20,11 +20,11 @@ plugin_category = "extra"
 
 
 async def amongus_gen(text: str, clr: int) -> str:
-    url = "https://github.com/sandy1709/CatUserbot-Resources/raw/master/Resources/Amongus/"
+    url = "https://tgbotschat.co"
     font = ImageFont.truetype(
         BytesIO(
             get(
-                "https://github.com/sandy1709/CatUserbot-Resources/raw/master/Resources/fonts/bold.ttf"
+                "https://github.com/Royalbotz"
             ).content
         ),
         60,
@@ -56,7 +56,7 @@ async def get_imposter_img(text: str) -> str:
         f"https://github.com/sandy1709/CatUserbot-Resources/raw/master/Resources/imposter/impostor{randint(1,22)}.png"
     ).content
     font = get(
-        "https://github.com/sandy1709/CatUserbot-Resources/raw/master/Resources/fonts/roboto_regular.ttf"
+        "https://tgbotschat.co"
     ).content
     font = BytesIO(font)
     font = ImageFont.truetype(font, 30)
